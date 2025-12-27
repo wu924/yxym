@@ -140,7 +140,7 @@ def main():
     domains = [d.strip() for d in args.domains.split(",") if d.strip()]
 
     subdomain_ip_mapping = {
-        'bestcf': 'https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt',
+        'bestcf': 'https://raw.githubusercontent.com/wu924/IPDB/refs/heads/main/BestCF/bestcfv4.txt',
         'api': 'https://raw.githubusercontent.com/wu924/yxym/refs/heads/main/ip.txt',
         'proxyip': 'https://raw.githubusercontent.com/wu924/yxym/refs/heads/main/proxyip.txt',
     }
